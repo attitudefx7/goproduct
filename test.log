@@ -1,0 +1,16 @@
+2021-12-13T10:29:08.265+0800	DEBUG	api/demo_controller.go:15	Trying to hit GET request
+{"level":"DEBUG","ts":"2021-12-13T11:06:01.926+0800","caller":"api/demo_controller.go:15","msg":"Trying to hit GET request"}
+{"level":"ERROR","ts":"2021-12-13T18:28:15.129+0800","caller":"server/middleware.go:14","msg":"panic: %v\nUndefined validation function 'name' on field 'Name'"}
+{"level":"ERROR","ts":"2021-12-13T18:29:08.929+0800","caller":"server/middleware.go:14","msg":"panic: Undefined validation function 'name' on field 'Name'\n"}
+{"level":"DEBUG","ts":"2021-12-16T17:50:53.006+0800","caller":"server/middleware.go:47","msg":"这是记录的请求日志"}
+{"level":"DEBUG","ts":"2021-12-16T18:22:21.336+0800","caller":"server/middleware.go:47","msg":"这是记录的请求日志"}
+{"level":"DEBUG","ts":"2021-12-16T18:24:08.538+0800","caller":"server/middleware.go:47","msg":"这是记录的请求日志"}
+{"level":"DEBUG","ts":"2021-12-16T18:29:31.107+0800","caller":"server/middleware.go:47","msg":"这是记录的请求日志"}
+{"level":"DEBUG","ts":"2021-12-16T20:07:04.794+0800","caller":"server/middleware.go:47","msg":"这是记录的请求日志"}
+{"level":"DEBUG","ts":"2021-12-16T20:07:23.795+0800","caller":"server/middleware.go:47","msg":"这是记录的请求日志"}
+{"level":"DEBUG","ts":"2021-12-16T20:08:10.919+0800","caller":"server/middleware.go:47","msg":"这是记录的请求日志"}
+{"level":"DEBUG","ts":"2021-12-16T20:09:43.923+0800","caller":"server/middleware.go:47","msg":"这是记录的请求日志"}
+{"level":"DEBUG","ts":"2021-12-16T20:16:29.656+0800","caller":"server/middleware.go:55","msg":"map[ip:127.0.0.1 message:<nil> params:[] url:/admin/attribute]"}
+{"level":"DEBUG","ts":"2021-12-16T20:29:32.725+0800","caller":"server/middleware.go:64","msg":"map[ip:127.0.0.1 message:<nil> params:[] url:/admin/attribute use_time:1.1302ms]"}
+{"level":"DEBUG","ts":"2021-12-16T20:30:25.732+0800","caller":"server/middleware.go:67","msg":"map[ip:127.0.0.1 message:<nil> params:[] url:/admin/attribute use_time:1.1359ms]"}
+{"level":"DEBUG","ts":"2021-12-17T17:52:52.031+0800","caller":"server/middleware.go:67","msg":"map[ip:127.0.0.1 message:<nil> params:[] url:/admin/attribute use_time:3.0007ms]"}
